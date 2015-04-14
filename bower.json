@@ -1,12 +1,12 @@
 {
   "name": "vertical-resizer",
-  "version": "0.1",
+  "version": "0.0.1",
   "authors": [
     "manger.cl"
   ],
   "main": [
-    "./dist/vertical-resizer.min.js",
-    "./dist/vertical-resizer.min.css"
+    "./vertical-resizer.min.js",
+    "./vertical-resizer.min.css"
   ],
   "ignore": [
     "**/.*",
