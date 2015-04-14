@@ -5,7 +5,7 @@ An angular directive for vertical resizing divs or other objects
 
 1. Download manually or using bower:
 
-        bower install angular-vertical-resizer --save
+        bower install germanger/angular-vertical-resizer --save
 
 2. Then add to your project:
 
