@@ -1,5 +1,6 @@
 # angular-vertical-resizer
-An angular directive for vertical resizing divs or other objects
+An angular directive for vertical resizing divs or other objects.<br/>
+<a href="http://plnkr.co/edit/3WpNZ3UZLTCDez84oHw3?p=preview">Plunker example</a>
 
 ## Installation
 
