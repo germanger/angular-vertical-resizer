@@ -1,0 +1,21 @@
+{
+  "name": "vertical-resizer",
+  "version": "0.1",
+  "authors": [
+    "manger.cl"
+  ],
+  "main": [
+    "./dist/vertical-resizer.min.js",
+    "./dist/vertical-resizer.min.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "*"
+  }
+}
