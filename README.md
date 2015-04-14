@@ -5,14 +5,14 @@ An angular directive for vertical resizing divs or other objects
 
 1. Download manually or using bower:
 
-        bower install angular-vertical-resizer --save
+        bower install germanger/angular-vertical-resizer --save
 
 2. Then add to your project:
 
-   <link rel="stylesheet" href="vertical-resizer.min.css" />
+        <link rel="stylesheet" href="vertical-resizer.min.css" />
    
-   <script src="angular.min.js"></script>
-   <script src="vertical-resizer.min.js"></script>
+        <script src="angular.min.js"></script>
+        <script src="vertical-resizer.min.js"></script>
    
 ## Usage example
 
