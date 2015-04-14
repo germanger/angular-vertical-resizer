@@ -23,7 +23,7 @@ An angular directive for vertical resizing divs or other objects
     <div id="div1" style="background-color: #ffdbdb; padding: 10px; height: 80px;"><p>I'm a resizable div</p></div>
     <vertical-resizer target-min-height="50px" target-max-height="150px" target-selector="#div1"></vertical-resizer>
 
-Check `examples.html` for more examples
+Check `examples.html` or <a href="http://plnkr.co/edit/3WpNZ3UZLTCDez84oHw3?p=preview">this Plunker</a> for more examples.
 
 ## Attributes
 
