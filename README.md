@@ -7,12 +7,16 @@ An angular directive for vertical resizing divs or other objects
 
         bower install germanger/angular-vertical-resizer --save
 
-2. Then add to your project:
+2. Add to your project:
 
         <link rel="stylesheet" href="vertical-resizer.min.css" />
    
         <script src="angular.min.js"></script>
         <script src="vertical-resizer.min.js"></script>
+        
+3. Add the module to your module
+
+        angular.module('yourApp', ['verticalResizer', ...]);
    
 ## Usage example
 
