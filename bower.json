@@ -5,8 +5,8 @@
     "manger.cl"
   ],
   "main": [
-    "./vertical-resizer.min.js",
-    "./vertical-resizer.min.css"
+    "./vertical-resizer.js",
+    "./vertical-resizer.css"
   ],
   "ignore": [
     "**/.*",

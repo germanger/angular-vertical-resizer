@@ -7,7 +7,7 @@ angular.module('verticalResizer').directive('verticalResizer', ['$document', '$w
         scope: {
             verticalResizerClass: '&'
         },
-        template: '<div class="{{verticalResizerClass}}"></div>',
+        template: '<div class="{{verticalResizerClass}}" style="{{verticalResizerStyle}}"></div>',
         link: function($scope, $element, $attrs) {
         
             var targetElement = angular.element(document.querySelector($attrs['targetSelector']));
@@ -16,6 +16,10 @@ angular.module('verticalResizer').directive('verticalResizer', ['$document', '$w
                 $scope.verticalResizerClass = "germanger-vertical-resizer";
             } else {
                 $scope.verticalResizerClass = $attrs['class'];
+            }
+            
+            if ($attrs['style']) {
+                $scope.verticalResizerStyle = $attrs['style'];
             }
 
             $element.on('mousedown', function(event) {

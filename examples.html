@@ -16,7 +16,6 @@
         }
     
         .custom-resizer {
-            height: 10px;
             background-color: #983b59; 
             margin-bottom: 18px;
             cursor: ns-resize;
@@ -50,10 +49,10 @@
     <div id="div2" class="example-div"><p>I'm a resizable div</p></div>
     <vertical-resizer target-min-height="50px" target-max-height="150px" target-selector="#div2"></vertical-resizer>
     
-    <h2>3. Resizer custom class</h2>
+    <h2>3. Resizer custom class and inline style</h2>
 
     <div id="div3" class="example-div"><p>I'm a resizable div</p></div>
-    <vertical-resizer class="custom-resizer" target-min-height="50px" target-selector="#div3"></vertical-resizer>
+    <vertical-resizer class="custom-resizer" style="height: 20px;" target-min-height="50px" target-selector="#div3"></vertical-resizer>
 
 </body>
 </html>
