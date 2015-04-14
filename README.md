@@ -31,6 +31,7 @@ Check `examples.html` for more examples
  - `target-max-height` (optional): Specify if the target has a max height restriction
  - `target-min-height` (optional): Specify if the target has a min height restriction
  - `class` (optional): If not specified, the default class `.germanger-vertical-resizer` will be used
+ - `style` (optional): inline styles are allowed
 
 ## Contributing
 
