@@ -9,7 +9,7 @@ angular.module('verticalResizer').directive('verticalResizer', ['$document', '$w
         },
         template: '<div class="{{verticalResizerClass}}" style="{{verticalResizerStyle}}"></div>',
         link: function($scope, $element, $attrs) {
-        
+
             var targetElement = angular.element(document.querySelector($attrs['targetSelector']));
 
             if (!$attrs['class']) {
@@ -17,7 +17,7 @@ angular.module('verticalResizer').directive('verticalResizer', ['$document', '$w
             } else {
                 $scope.verticalResizerClass = $attrs['class'];
             }
-            
+
             if ($attrs['style']) {
                 $scope.verticalResizerStyle = $attrs['style'];
             }
@@ -30,7 +30,7 @@ angular.module('verticalResizer').directive('verticalResizer', ['$document', '$w
             });
 
             function mousemove(event) {
-                var scale = event.movementY;
+                var scale = event.movementY || event.originalEvent.movementY;
                 var currentHeight = parseInt(window.getComputedStyle(targetElement[0], null).getPropertyValue("height"));
                 var newHeight = currentHeight + scale;
 
@@ -39,7 +39,7 @@ angular.module('verticalResizer').directive('verticalResizer', ['$document', '$w
                         return;
                     }
                 }
-                
+
                 if ($attrs['targetMaxHeight']) {
                     if (newHeight > parseInt($attrs['targetMaxHeight'])) {
                         return;
